@@ -1,0 +1,13 @@
+prefix=/Users/josephguzman/Desktop/DSC180A/DSC180A-Q1/luigi_permute/.conda
+exec_prefix=/Users/josephguzman/Desktop/DSC180A/DSC180A-Q1/luigi_permute/.conda
+libdir=/Users/josephguzman/Desktop/DSC180A/DSC180A-Q1/luigi_permute/.conda/lib
+sharedlibdir=/Users/josephguzman/Desktop/DSC180A/DSC180A-Q1/luigi_permute/.conda/lib
+includedir=/Users/josephguzman/Desktop/DSC180A/DSC180A-Q1/luigi_permute/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
